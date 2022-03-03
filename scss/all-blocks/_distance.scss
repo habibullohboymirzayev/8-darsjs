@@ -1,0 +1,53 @@
+
+.distance {
+    
+    &__container {
+        
+    }
+    
+    &__form {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    &__input {
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    &__btn{
+        width: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      
+        &:hover{
+            border: none;
+            background-color: darkslategray;
+            color: whitesmoke;
+        }
+    }
+    
+    &__heading {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__item {
+        text-align: center;
+    }
+    
+    &__img{
+        border: solid white;
+        border-radius: 50%;
+    }
+}
+
